@@ -1,0 +1,98 @@
+.products{
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    justify-content: center;
+    margin-top: 60px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.card{
+    width: 33%;
+    min-height: 550px;
+}
+.gray{
+    color: gray;
+}
+.underline{
+    text-decoration: line-through;
+}
+.left{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.card-img{
+    width: 350px;
+    min-height: 550px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.store-btn{
+    width: 243px;
+    height: 68px;
+    background-color: white;
+    color: green;
+    border: green 1px solid;
+}
+.need-items h1{
+    font-size: 50px;
+}
+.need-items{
+    display: flex;
+    justify-content: space-around;
+}
+.small-p{
+    width: 30%;
+}
+.headings{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.font-25{
+    font-size: 25px;
+}
+.font-30{
+    font-size: 30px;
+}
+.team-womazing{
+    display: flex;
+    gap: 50px;
+}
+.left-card{
+    width: 65%;
+}
+.right-card{
+    width: 35%;
+    text-align: center;
+}
+.short{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.about-btn{
+    color: green;
+    text-decoration: solid;
+}
+@media only screen and (max-width: 700px){
+    .products{
+        flex-direction: column;
+        align-items: center;
+        gap: 120px;
+    }
+    .headings{
+        text-align: center;
+    }
+    .need-items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-womazing{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: auto;
+    }
+}

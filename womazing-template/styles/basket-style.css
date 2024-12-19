@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 800px;
+    position: static;
+}
+table{
+    width: 100%;
+}
+.border{
+    border-collapse: collapse;
+}
+.border-bottom{
+    border-bottom: 1px solid #CCCCCC;
+}
+.td-btn{
+    width: 47px;
+    height: 47px;
+    background-color: #AFAFAF;
+}
+.items *{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.basket-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.coupon-text{
+    border: none;
+    border-bottom: 1px solid;
+    height: 65px;
+}
+.display-flex{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.margin-left{
+    margin-left: 30px;
+}
+.total{
+    background-color: #F1EADC;
+    width: 287px;
+    height: 68px;
+    text-align: center;
+}
+.confirm-btn{
+    background-color: #6E9C9F;
+    width: 236px;
+    height: 68px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+.ww{
+    width: 44%;
+}
+
+@media only screen and (max-width: 450px) {
+    header, .menu{
+        flex-direction: column;
+        font-size: 24px;
+    }
+    header{
+        gap: 20px;
+        min-width: 100% !important; 
+        padding-top: 45px;
+    }
+    .page-titles{
+        text-align: center;
+    }
+    .breadcrumbs{
+        text-align: center;
+    }
+  }
