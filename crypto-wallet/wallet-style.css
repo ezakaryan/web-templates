@@ -149,7 +149,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 230px;
 }
 .flex img{
     margin-right: 25px;
@@ -236,4 +235,49 @@ header{
     background-color: white;
     color: black;
     border: none;
+}
+.plan-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 230px;
+}
+.footer-flex{
+    background-color: black;
+    padding: 60px 30px;
+}
+.footer-flex input{
+    background-color: #252525;
+    height: 35px;
+}
+.footer-btn{
+    background-color: #975CFF;
+    border: none;
+    border-radius: 12px;
+    padding: 11px;
+    color: white;
+}
+.footer-flex ul{
+    color: white;
+}
+.footer-flex li{
+    list-style: none;
+
+}
+.footer-list-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.list-flex{
+    display: flex;
+    gap: 30px;
+}
+.font-13{
+    font-size: 13px;
+}
+.grey{
+    color: #545454;
+}
+.grey a{
+    text-decoration: none;
 }
