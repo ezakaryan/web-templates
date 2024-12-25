@@ -148,6 +148,8 @@ header{
 .flex{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-inline: 230px;
 }
 .flex img{
     margin-right: 25px;
@@ -159,4 +161,79 @@ header{
 .header{
     color: #262C3B;
     font-size: 16px;
+}
+.subheading{
+  text-align: center;
+  font-size: 19px;
+  line-height: 34px;
+  color: #252B3B;  
+  margin-bottom: 100px;
+}
+.heading-second{
+    font-size: 43px;
+    text-align: center;
+    color: #262C3B;
+}
+.font-29{
+    font-size: 29px;
+    line-height: 39px;
+    color: #262C3B;
+}
+.font-18{
+    font-size: 18px;
+    line-height: 27px;
+    color: #262C3B;
+}
+.flex-heading{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.font-50{
+    font-size: 50px;
+}
+.font-24{
+    font-size: 24px;
+    color: #262C3B80;
+}
+.try-for-free-btn{
+    width: 306px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #965CFF;
+    color: white;
+    border: none;
+}
+.margin-right{
+    margin-right: 15px;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.flex-left{
+    width: 50%;
+}
+.flex-right{
+    background-image: url(https://s3-alpha-sig.figma.com/img/3fed/f6a0/af1621632e4bffccc71a400040af29b7?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MWw6AsSCnN5GVelU8eRVqyIyDFIl2nZg6UrdTTp9hIX8BjnGTnblds3J3bVQXYHii1xBYJrUFZXsDBTm4fQSz7CV29OepiAxfD4BO3ypIeYrT7CWvDHuBcUFNWrkvCL2W-cL5mJE5w04-YEysjwURIA5LcXPW~Zb8pJe33bmatfML97k9o4hpQ2Iq0gduSfrK3U5TIqmrtbHZ3gN61Pws9iaZez1XwdNaSr91PjTx1RYxnrbyl2l4ti1GtS0jpdAd2-X2VwQkB12iTPAjWgRPOubdXwAVsTzLXolRu5FvHIZkax88WObJLuNc2oCz1AknMN8Uh3DaOiVwWJZFPlmPQ__);
+    min-height: 600px;
+    min-width: 460px;
+    max-width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: start;
+    padding: 22px 62px;
+    border-radius: 24px;
+}
+.white{
+    color: white;
+}
+.try-for-free-btn-white{
+    width: 306px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: none;
 }
