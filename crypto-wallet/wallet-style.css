@@ -2,7 +2,7 @@ body{
     font-family: "Roboto Slab", serif;
 }
 .wrapper{
-    background-image: url(https://s3-alpha-sig.figma.com/img/fe8b/6789/866bcb6a3bf3a54634901adc5a9d6770?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FMMHyEH2x1kAt5DwCKcfYfUmicSkEViTyGePrieQ8-JdacClOmHO9s~k931u-u2kTrK0hjbPHIwwafXwGD1CCWjrILThqVYYyFw-a1uMzvvtC15mAWW-Da6Gz8DonWRUlWD23s4MeCmac7zlo4PlF-7jiREXZsntsghc2r7JJX3a86VqAxw9MalX5TVc2sH49AaCIrbg5wLKPtlWRgnLRl1wuSvCYGfg~rPEpbE-yx2rpSJ8~Oqwp0y53WDwYk104WLNi2q1jqkTn9oakyGwOZSV~IZrIUeRsgA2SJZgS1~sPsEUz7T9iNSs~6HEnmTq37f7mZGfMy8SYP9Xv3sksw__);
+    background-image: url(background.jpg);
     background-size: 267%;
     min-height: 1000px;
     padding: 20px;
@@ -280,4 +280,49 @@ header{
 }
 .grey a{
     text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        background-size: 2793px;    
+    }
+    .main-heading{
+        font-size: 35px;
+        max-width: 340px;
+    }
+    .main-content{
+
+    }
+    .main-paragraph{
+        width: 310px;
+    }
+    .list{
+        gap: 29px;
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+    .footer-list-flex, .plan-section, .second-page-first, .second-page-second{
+        padding: 0;
+        flex-direction: column;
+        
+    }
+    .left-side-second, .second-paragraph, .second-heading, .second-heading, .left-side{
+        width: unset;
+    }
+    .right-side img{
+        width: 411px;
+    }
+    .left-side{
+        margin-left: 0px;
+    }
+    .pic-text{
+        top: 140px;
+        left: 74px;
+    }
+    .flex-left, .flex-right{
+        min-width: unset;
+        width: unset;
+    }
+    .footer-list-flex{
+        gap: 26px;
+    }
 }
